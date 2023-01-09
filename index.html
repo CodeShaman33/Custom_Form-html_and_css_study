@@ -1,0 +1,29 @@
+{% extends base.html %}
+
+
+
+
+
+
+{% block content %}
+
+<form autocomplete="off">
+    <div class="bg" aria-hidden="true"></div>
+    <div class="form__icon" aria-hidden="true"></div>
+    <div class="form__input-container">
+        <input id="user" aria-label="User" type="text" placeholder=" ">
+        <label for="user">User</label>
+    </div>
+
+    <div class="form__input-container">
+        <input id="password" type="password" aria-label="Password" placeholder=" ">
+        <label for="password">Password</label>
+    </div>
+
+    <div class="spacer"></div>
+
+    <button>Login</button>
+
+</form>
+
+{% endblock content %}

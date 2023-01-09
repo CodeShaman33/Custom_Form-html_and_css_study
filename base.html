@@ -15,24 +15,13 @@
     <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>
 
-    <form autocomplete="off">
-        <div class="bg" aria-hidden="true"></div>
-        <div class="form__icon" aria-hidden="true"></div>
-        <div class="form__input-container">
-            <input id="user" aria-label="User" type="text" placeholder=" ">
-            <label for="user">User</label>
-        </div>
+    {% block content %}
+    {% endblock content %}
 
-        <div class="form__input-container">
-            <input id="password" type="password" aria-label="Password" placeholder=" ">
-            <label for="password">Password</label>
-        </div>
+</body>
 
-        <div class="spacer"></div>
+</html>
 
-        <button>Login</button>
-
-    </form>
 
 <!-- <form autocomplete="off">
         <div class="bg" aria-hidden="true"></div>
@@ -51,12 +40,4 @@
 
         <button>Login</button>
 
-    </form>  -->
-    
-    
-
-    
-
-</body>
-
-</html>
+    </form> -->
