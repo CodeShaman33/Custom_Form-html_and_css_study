@@ -6,7 +6,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0;e
 }
 
 #particles-js {
@@ -175,4 +175,43 @@ button:focus {
     -webkit-box-shadow: 7px 8px 24px -9px rgba(66, 68, 90, 1);
     -moz-box-shadow: 7px 8px 24px -9px rgba(66, 68, 90, 1);
     box-shadow: 7px 8px 24px -9px rgba(66, 68, 90, 1);
+}
+
+#slider {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slider img {
+    width: 700px;
+    height: auto;
+    border-radius: 23px;
+    -webkit-box-shadow: 5px 5px 24px 7px rgba(66, 68, 90, 1);
+-moz-box-shadow: 5px 5px 24px 7px rgba(66, 68, 90, 1);
+box-shadow: 5px 5px 24px 7px rgba(66, 68, 90, 1);
+}
+
+#menu 
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
+
+#menu span 
+{
+    border: solid black 2px;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 7px 15px;
+    margin: 6px;
+    background-color: #1ecdd3;
+    -webkit-box-shadow: 5px 5px 24px 7px rgba(66, 68, 90, 1);
+-moz-box-shadow: 5px 5px 24px 7px rgba(66, 68, 90, 1);
+box-shadow: 5px 5px 24px 7px rgba(66, 68, 90, 1);
 }
